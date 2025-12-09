@@ -1,10 +1,7 @@
 #ifndef QUESTION_H
 #define QUESTION_H
 
-#include <QObject>
-#include <QWidget>
-#include <QButtonGroup>
-#include <QRadioButton>
+#include <QString>
 
 class Question
 {
@@ -31,9 +28,7 @@ public:
     QString description;//本题描述内容
     Dimension dimension;//本题归属维度
     int score;//本题得分
-
-    // void setDimension(int i);
-    // void setDescr(QString str);
+    
     ~Question();
 };
 
