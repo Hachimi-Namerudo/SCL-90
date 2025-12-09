@@ -4,7 +4,9 @@
 #include <QDialog>
 #include <QFile>
 #include <QTime>
-#include<QCloseEvent>
+#include <QRadioButton>
+#include <QButtonGroup>
+#include <QCloseEvent>
 
 namespace Ui {
 class SCL_90;
@@ -25,14 +27,9 @@ public:
     void debug();
     void calculate();
     void closeEvent(QCloseEvent *);
-
-
-
-
-
-
     QTime tmps;
     int currentPage;//幸好我早有准备！
+
 private slots:
     void on_pushButton_3_clicked();
 
